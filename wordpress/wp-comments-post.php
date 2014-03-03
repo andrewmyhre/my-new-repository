@@ -7,7 +7,7 @@
 
 if ( 'POST' != $_SERVER['REQUEST_METHOD'] ) {
 	header('Allow: POST');
-	header('HTTP/1.1 405 Method Not Allowed');
+	header('HTTP/1.1 404 Not Found');
 	header('Content-Type: text/plain');
 	exit;
 }
